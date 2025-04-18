@@ -56,7 +56,7 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
+      var buildUrl = document.location.pathname.replace(/\/[^\/]*$/, "") + "/Build/";
       var loaderUrl = buildUrl + "/portfolio_vercel.loader.js";
       var config = {
         arguments: [],
