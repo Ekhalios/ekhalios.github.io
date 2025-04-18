@@ -1,9 +1,9 @@
-const cacheName = "Ekhalios-Portfolio-0.1.0";
+const cacheName = "Ekhalios-Portfolio _ Sentenac Léandre-0.1.0";
 const contentToCache = [
-    "Build/portfolio_vercel.loader.js",
-    "Build/portfolio_vercel.framework.js",
-    "Build/portfolio_vercel.data",
-    "Build/portfolio_vercel.wasm",
+    "Build/Portfolio.loader.js",
+    "Build/Portfolio.framework.js.unityweb",
+    "Build/Portfolio.data.unityweb",
+    "Build/Portfolio.wasm.unityweb",
     "TemplateData/style.css"
 
 ];
