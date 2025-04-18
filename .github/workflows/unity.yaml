@@ -24,7 +24,7 @@ jobs:
       - name: Upload WebGL build to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: Build  # <-- Mets ici le chemin vers ton dossier de build WebGL (avec index.html)
+          path: .
 
   deploy-to-pages:
     needs: deploy
